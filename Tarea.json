@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "titulo": "Realizar la Actividad",
+        "descripcion": "Realizar la actividad para el viernes",
+        "completada": false
+    }
+]
