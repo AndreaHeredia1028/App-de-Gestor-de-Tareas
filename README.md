@@ -12,9 +12,9 @@ Completar Tareas: Marca las tareas seleccionadas como completadas.
 
 Eliminar Tareas Completadas: Elimina todas las tareas que ya han sido marcadas como completadas.
 
-Exportar Tareas: Guarda todas las tareas en un archivo tareas.json.
+Exportar Tareas: Guarda todas las tareas en un archivo tarea.json.
 
-Importar Tareas: Carga tareas desde un archivo tareas.json.
+Importar Tareas: Carga tareas desde un archivo tarea.json.
 
 Interfaz de Usuario: Interfaz limpia y organizada con una barra de menú que permite acceder a todas las funcionalidades.
 
@@ -36,9 +36,9 @@ Instala las dependencias ejecutando el siguiente comando:
 
 pip install sqlalchemy
 
-Ejecuta el archivo tarea.py:
+Ejecuta el archivo GestordeTareas.py:
 
-python tarea.py
+python GestordeTareas.py
 
 Uso
 
@@ -54,8 +54,10 @@ Importar Tareas: Selecciona la opción del menú "Importar Tareas" para cargar t
 
 Estructura del Proyecto
 
-tarea.py: Archivo principal que contiene el código de la aplicación.
+GestordeTareas.py: Archivo principal que contiene el código de la aplicación.
 
-tareas.db: Base de datos SQLite que almacena las tareas.
+GestordeTareas.db: Base de datos SQLite que almacena las tareas.
 
-tareas.json: Archivo JSON utilizado para exportar e importar tareas.
+tarea.json: Archivo JSON utilizado para exportar e importar tareas.
+
+gt-logo.ico: Archivo que contiene el icono de la aplicación.
